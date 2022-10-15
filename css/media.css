@@ -1,0 +1,188 @@
+@media only screen and (max-width: 1024px) {
+    .burger-meny-btn{
+        display: none;
+    }
+    .consumer-div{
+        display: none;
+    }
+    .language-btn{
+        display: block;
+    }
+    .little-info{
+        flex-direction: column;
+        padding: 0 32px;
+    }
+    .little-info>div{
+        width: auto;
+        flex-direction: column;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+    .large-info{
+        margin-top: 280px;
+    }
+    .large-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 240px 240px 240px 240px;
+        padding: 32px;
+    }
+    .product-a{
+        grid-row: 1;  
+    }
+    .product-d{
+        grid-column:  auto;
+    }
+    .top-product{
+        margin-top: 675px;
+        padding: 32px;
+    }
+    .big-banner img {
+        width: 35%;
+        right: 0;
+    }
+    iframe {
+        width: 100%;
+        height: 260px;
+        padding: 0 32px;
+    }
+    .contact-section{
+        margin-top: 20px;
+    }
+    .contact-info{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .product-d .small-p{
+        z-index: 1;
+        left: 40px;
+    }
+    .product-d .big-p{
+        z-index: 1;
+        left: 40px;
+    }
+    .product-d button{
+        z-index: 1;
+        left: 40px;
+    }
+    .product-d img{
+        z-index: 1;
+    }
+    .big-banner>div{
+        padding-left: 50px;
+    }
+    .footer-text{
+        display: none;
+    }
+    #map-con{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .index-img img{
+        width: 106px;
+        height: 15px;
+    }
+    .language-btn a{
+        font-size: 14px;
+    }
+    .main-slide {
+        margin-top: 70px;
+    }
+    #main-swiper-btn{
+        display: none;
+    }
+    .swiper-slide-info p {
+        width: 200px;
+        font-size: 14px;
+    }
+    .swiper-slide-info button{
+        display: none;
+    }
+    .little-info{
+        margin-top: 30px;
+    }
+    .a-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 16px;
+        margin-top: 40px;
+    }
+    .product-a img{
+        width: 128px;
+        height: 171px;
+    }
+    .product-a button{
+        margin-top: 59px;
+    }
+    .product-a .small-p {
+        z-index: 1;
+    }
+    .product-b .small-p{
+        left: 20px;
+    }
+    .product-b .big-p{
+        left: 20px;
+    };
+    .product-b button {
+        right: 15px;
+    }
+    .product-b img {
+        width: 80%;
+        z-index: 1;
+    }
+    .small-p{
+        left: 20px;
+        font-size: 14px;
+    }
+    .big-p{
+        left: 20px;
+        font-size: 18px;
+    }
+    .product-c img {
+        width: 100%;
+    }
+    .product-d .small-p{
+        left: 20px;
+    }
+    .product-d .big-p{
+        left: 20px;
+    }
+    .product-d button{
+        z-index: 1;
+    }
+    .product-d img{
+        width: 50%;
+        bottom: 0;
+    }
+    .slider-title h2{
+        font-size: 18px;
+    }
+    .slider-title a{
+        display: none;
+    }
+    .zoo-card-a{
+        width: 80%;
+    }
+    .zoo-card-b{
+        width: 80%;
+    }
+    .big-banner p{
+        font-size: 18px;
+    }
+    .footer-top{
+        display: none;
+    }
+    .footer-bottom{
+        flex-direction: column-reverse;
+    }
+    .footer-kort{
+        margin-bottom: 85px;
+    }
+    .mobile-footer{
+        display: flex;
+    }
+}

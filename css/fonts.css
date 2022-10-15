@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Myriad GEO Mtavruli";
+    src: url("../fonts/Myriad\ GEO\ Mtavruli.ttf"),
+        url("../fonts/Myriad\ GEO\ Mtavruli.woff"),
+        url("../fonts/Myriad\ GEO\ Mtavruli.woff2.woff");
+}
+@font-face {
+    font-family: "FiraGO";
+    src: url("../fonts/FiraGO-Medium.eot"),
+        url("../fonts/FiraGO-Medium.otf"),
+        url("../fonts/FiraGO-Medium.ttf"),
+        url("../fonts/FiraGO-Medium.woff"),
+        url("../fonts/FiraGO-Medium.woff2");
+}

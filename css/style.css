@@ -1,0 +1,762 @@
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desctop-header{
+    max-width: 1276px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 5;
+    padding: 0 45px 0 45px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0px 0px 10px #597DBC0D;
+}
+.language-btn{
+    display: none;
+}
+.consumer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger-meny-btn span{
+    font-size: 35px;
+}
+.language-btn a{
+    font-size: 23px;
+    font-family: FiraGO;
+    color: #111111;
+}
+.consumer-div a{
+    text-align: center;
+    margin-right: 30px;
+}
+.consumer-div span{
+    margin-bottom: 13px;
+}
+.consumer-div h6{
+    font-size: 12px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+main{
+    max-width: 1186px;
+    margin: 0 auto;
+}
+
+.main-slide{
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #f5ad001a;
+}
+.main-swiper{
+    width: 100%;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+}
+.swiper-slide{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide-info{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.swiper-slide-info p{
+    width: 344px ;
+    font-size: 24px;
+    text-align: center;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+}
+.swiper-slide-info button{
+    width: 176px;
+    height: 42px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #111111;
+    background-color: #FFFFFF;
+    border: none;
+    cursor:pointer;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+
+/* მცირე საინფორმაციო ბარათები -- little information-card-- */
+.little-info{
+    max-width: 1186px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.little-info>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 277px;
+    height: 100%;
+    border-radius: 10px;
+}
+.little-info img{
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 26px;
+    margin-left: 24px;
+}
+.little-info p{
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.litinfo-a{
+    background-color: #F1F7E9;
+}
+.litinfo-a img{
+    background-color: #E3F0D4;
+}
+.litinfo-a span{
+    color: #74B42C;
+}
+.litinfo-b{
+    background-color: #FEEFE8;
+}
+.litinfo-b img{
+    background-color: #FDDFD2;
+}
+.litinfo-b span{
+    color: #F5621F;
+}
+.litinfo-c{
+    background-color: #EBF7FC;
+}
+.litinfo-c img{
+    background-color: rgba(60, 171, 224, 0.2);
+}
+.litinfo-c span{
+    color: #3CABE0;
+}
+.litinfo-d{
+    background-color: #FAF4FA;
+}
+.litinfo-d img{
+    background-color: rgba(204, 150, 208, 0.2);
+}
+.litinfo-d span{
+    color: #CC96D0;
+}
+
+/* დიდი საინფორმაციო ბანერი */
+.large-grid{
+    width: 100%;
+    height: 426px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 26px;
+}
+.large-grid button{
+    width: 161px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color: #111111;
+    font-size: 12px;
+    font-family: FiraGO;
+    cursor: pointer;
+}
+.product-a{
+    grid-row: 1 / span 2;
+    border-radius: 10px;
+    background-color: #F5621F;
+    /* display: flex; */
+    position: relative;   
+}
+.a-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.product-a h3{
+    /* position: absolute; */
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+}
+.product-a .big-p{
+    /* position: absolute; */
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+.product-a .small-p{
+    /* position: absolute; */
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+}
+.small-p{
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+}
+.big-p{
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+}
+.product-a button{
+    left: 40px;
+    top: 192px;
+    margin-top: 45px;
+}
+.product-a img{
+    position: absolute;
+    width: 218px;
+    height: 291px;
+    right: 0px;
+    bottom: 0px;
+}
+.product-b{
+    border-radius: 10px;
+    background-color: #3CABE0;
+    position: relative;  
+}
+.product-b .big-p{
+    position: absolute;
+    left: 74px;
+    top: 46px;
+}
+.product-b .small-p{
+    position: absolute;
+    left: 74px;
+    top: 76px;
+}
+.product-b button{
+    right: 40px;
+    bottom: 20px;
+    position: absolute;
+    z-index: 1;
+}
+.product-b img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.product-c{
+    border-radius: 10px;
+    background-color: #74B42C;
+    position: relative; 
+}
+.product-c .small-p{
+    position: absolute;
+    z-index: 2;
+    left: 40px;
+    top: 43px;
+}
+.product-c .big-p{
+    position: absolute;
+    z-index: 2;
+    left: 40px;
+    top: 76px;
+}
+.product-c button{
+    bottom: 20px;
+    left: 40px;
+    position: absolute;
+    z-index: 1;
+}
+.product-c img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.product-d{
+    grid-column: 2 / span 2;
+    border-radius: 10px;
+    background-color: #F5AD00;
+    position: relative; 
+}
+.product-d .small-p{
+    position: absolute;
+    left: 303px;
+    top: 43px;
+}
+.product-d .big-p{
+    position: absolute;
+    left: 303px;
+    top: 76px;
+}
+.product-d button{
+    left: 303px;
+    bottom: 40px;
+    position: absolute;
+}
+.product-d img{
+    width: 202px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.top-product{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.slider-title{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.slider-title h2{
+    font-size: 28px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.slider-title a{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #9C9C9C;
+}
+.adjective-info{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 60px;
+    row-gap: 60px;
+}
+.adjective-info>div{
+    width: 378px;
+    height: 500px;
+    box-shadow: 0px 0px 20px #597DBC0D;
+    border-radius: 10px;
+    position: relative;
+
+}
+.adjective-a p{
+    width: 232px;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    left: 73px;
+}
+.zoo-card-a{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    z-index: 1;
+}
+.zoo-card-b{
+    position: absolute;
+    left: 20px;
+    bottom: -15px;
+}
+.adjective-b{
+    background-color: #FEE02E;
+}
+.adjective-b p{
+    position: relative;
+    width: 232px;
+    font-size: 24px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+    top: 40px;
+    left: 40px;
+}
+.adjective-b span{
+    font-size: 18px;
+}
+.adjective-b button{
+    width: 161px;
+    height: 42px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #111111;
+    border-radius: 6px;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+}
+.adjective-b img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.adjective-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adjective-c>p{
+    width: 179px;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    position: absolute;
+    top: 43px;
+    left: 40px;
+}
+.sale-div{
+    width: 119px;
+    height: 119px;
+    border-radius: 0px 10px 0px 193px;
+    text-align: center;
+    background-color: #F5621F;
+    font-size: 24px;
+    font-family: FiraGO;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 30px;
+    top: 0;
+    right: 0;
+} 
+.mini-slider-info{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mini-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini-slider span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #111111;
+    cursor: pointer;
+    color: #F1F7E9;
+    border-radius: 6px;
+}
+.mini-slider-info p{
+    margin-top: 23px;
+    font-size: 18px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.mini-slider-info button{
+    width: 161px;
+    height: 42px;
+    margin-top: 31px;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: FiraGO;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.last-add{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.big-banner{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #F5AD00;
+    border-radius: 10px;
+    position: relative;
+}
+.big-banner>div{
+    padding-top: 56px;
+    padding-left: 101px;
+    z-index: 3;
+}
+.big-banner p{
+    max-width: 509px;
+    font-size: 32px;
+    font-family: Myriad GEO Mtavruli;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    z-index: 1;
+}
+.big-banner button{
+    width: 161px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color: #111111;
+    font-size: 12px;
+    font-family: FiraGO;
+    cursor: pointer;
+}
+.big-banner img{
+    position: absolute;
+    right: 70px;
+    bottom: -10px;
+}
+.brands-section{
+    width: 100%;
+    height: 149px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.footer-top{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    width: 378px;
+    /* margin-right: 127px; */
+}
+.footer-text img{
+    width: 141px;
+}
+.footer-text p{
+    margin-top: 27px;
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+    line-height: 1.8;
+}
+.footer-categories li {
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+    margin-top: 16px;
+}
+
+.footer-top h3{
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+    margin-bottom: 31px;
+}
+.footer-menu{
+    margin-left: 112px;
+}
+.footer-menu li{
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+    margin-top: 16px;
+}
+.footer-contact{
+    margin-left: 80px;
+}
+.footer-contact li{
+    font-size: 14px;
+    font-size: 12px;
+    font-family: FiraGO;
+    color:  #111111;
+    margin-top: 16px;
+}
+.footer-bottom{
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-bottom h4{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #9C9C9C;
+}
+.footer-bottom h3{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #111111;
+}
+.footer-bottom span{
+    color: #74B42C;
+}
+.footer-kort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 142px;
+}
+.kort-master{
+    margin: 0 37px 0 31px;
+}
+.mobile-footer{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed !important;
+    z-index: 32;
+    bottom: 0;
+    left: 0;
+}
+.mobile-footer a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-footer span{
+    width: 18px;
+    color: #111111;
+}
+.mobile-footer h6{
+    margin-top: 8px;
+    color: #242424;
+    font-size: 12px;
+    font-family: Myriad GEO Mtavruli;
+}
+.serch-btn{
+    background-color: #ffffff;;
+    border: none;
+
+}
+.burger-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #74B42C;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contact */
+.activ-meny{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.activ-meny ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.activ-meny li{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #C8C8C8;
+}
+.contact-section{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+.contact-info li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.contact-info span{
+    color: #9C9C9C;
+    margin-right: 35px;
+}
+.contact-info h6{
+    font-size: 14px;
+    font-family: Myriad GEO Mtavruli;
+    color: #9C9C9C;
+    margin-bottom: 9px;
+}
+.contact-info a{
+    font-size: 18px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-bottom: 6px;
+}
+.contact-info h4{
+    font-size: 18px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-bottom: 6px;
+}
+.about-us{
+    max-width: 984px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.about-divimg{
+    width: 100%;
+    height: 400px;
+    background-color: #F5621F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-info{
+    max-width: 782px;
+    width: 100%;
+    margin: auto;
+    margin-top: 65px;
+}
+.about-info h1{
+    font-size: 28px;
+    font-family: Myriad GEO Mtavruli;
+    color: #111111;
+}
+.about-info p{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-top: 31px;
+}
