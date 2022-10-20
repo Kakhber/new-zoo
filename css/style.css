@@ -38,7 +38,64 @@ header {
     justify-content: center;
     align-items: center;
 }
-
+.burger-meny{
+    display: none;
+    max-width: 1276px;
+    height: 700px;
+    margin: 0 auto;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 50px 50px;
+    padding: 0 45px 0 45px;
+    box-shadow: 0px 0px 10px #597DBC0D;
+    z-index: 55;
+}
+.burger-info{
+    width: 100%;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.burger-nav a{
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-right: 30px;
+}
+.burge-lang-info{
+    display: flex;
+    justify-content: space-between ;
+}
+.burger-mail-tel{
+    display: flex;
+    flex-direction: column;
+}
+.burger-lang{
+    margin-right: 108px;
+}
+.burger-lang a{
+    font-size: 12px;
+    font-family: FiraGO;
+    color: #111111;
+    margin-right: 10px;
+}
+.burger-tel{
+    font-size: 24px;
+    font-family: FiraGO;
+    color: #111111;
+}
+.burger-mail{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #6E6E6E;
+}
 .burger-meny-btn span {
     font-size: 35px;
 }
@@ -770,7 +827,6 @@ main {
     width: 378px;
     /* margin-right: 127px; */
 }
-
 .footer-text img {
     width: 141px;
 }
