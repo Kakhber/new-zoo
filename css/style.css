@@ -937,6 +937,9 @@ main {
 .mobile-footer span {
     width: 18px;
     color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobile-footer h6 {
@@ -970,6 +973,8 @@ main {
     width: 100%;
     margin: 0 auto;
     margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .activ-meny ul {
@@ -983,7 +988,39 @@ main {
     font-family: FiraGO;
     color: #C8C8C8;
 }
-
+.product-sorting span{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #111111;
+}
+.product-sorting li{
+    font-size: 14px;
+    font-family: FiraGO;
+    color: #F5621F;
+}
+.product-category{
+    width: 100%;
+    height: 1837px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 277px auto;
+    gap: 26px;
+}
+.product-filter{
+    background-color: #74B42C;
+}
+.product-page{
+    width: 100%;
+    height: 1837px;
+    display: grid;
+    grid-template-columns: 277px 277px 277px;
+    grid-template-rows: 441px 441px ;
+    gap: 26px;
+    background-color: #CC96D0;
+}
+.product-page div{
+    background-color: #111111;
+}
 .contact-section {
     width: 100%;
     margin: 0 auto;
