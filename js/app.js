@@ -10,8 +10,8 @@ const mainSwiper = new Swiper('.main-swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.btn-next',
+    prevEl: '.btn-prev',
   },
 
   // And if we need scrollbar
@@ -94,8 +94,8 @@ const topAddedSwiper = new Swiper('.top-added-swiper', {
   },
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.product-next',
+    prevEl: '.product-prev',
   },
 
 });

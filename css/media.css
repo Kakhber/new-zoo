@@ -55,6 +55,10 @@
         grid-template-columns:  1fr 1fr;
         height: auto;
     }
+    .about-product {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media only screen and (max-width: 768px) {
     .product-d .small-p{
@@ -210,5 +214,22 @@
     }
     .product-category  form{
         display: none; 
+    }
+    .product-img {
+        flex-direction: column-reverse; 
+        align-items: center;
+
+    }
+    .product-information {
+        align-items: center;
+    }
+    .product-img>div {
+        flex-direction: revert;
+    }
+    .product-information h3{
+        display: none;
+    }
+    .product-information-p{
+        display: block;
     }
 }
